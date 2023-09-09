@@ -8,8 +8,6 @@ body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    top: 0;
-    position: sticky;
     /*background-image: url('back.png'); /* Replace with your image file name */
     /*background-size: cover;
     background-repeat: no-repeat;
@@ -26,6 +24,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    top: 0;
+    position: sticky;
 }
 
 .logo img {
@@ -68,7 +68,7 @@ section {
 }
 h2.mname {
     font-size: 30px;
-    color: #ffffff;
+    color: #000000;
     margin-bottom: 10px;
     text-transform: uppercase;
     position: relative;
@@ -162,7 +162,7 @@ section#skills {
 section#skills h2 {
     font-size: 32px;
     margin-bottom: 30px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .skills-content {
@@ -186,7 +186,7 @@ section#skills h2 {
 
 .skill h4 {
     font-size: 20px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .skill-progress {
@@ -209,30 +209,30 @@ section#skills h2 {
 .pro {
     text-align: center;
     margin-bottom: 10px;
-    color: #ffffff;
+    color: #000000;
 }
 section .project {
     margin-bottom: 20px;
     
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     padding: 40px;
     border-radius: 4px;
 }
 
 section .project h3 {
     font-size: 24px;
-    color: #ffffff;
+    color: #000000;
 }
 
 section .project p {
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
 }
 .project img {
     max-width: 90%;
     height: 100%;
     margin-bottom: 10px;
-    border: 1px solid #ddd;
+    border: 1px solid #000000;
     border-radius: 4px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
