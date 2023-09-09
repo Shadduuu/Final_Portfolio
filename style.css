@@ -10,11 +10,11 @@ body {
     padding: 0;
     top: 0;
     position: sticky;
-    background-image: url('back.png'); /* Replace with your image file name */
-    background-size: cover;
+    /*background-image: url('back.png'); /* Replace with your image file name */
+    /*background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
+    background-position: center; */
     
 }
 
